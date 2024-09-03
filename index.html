@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js" type="module"></script>
+  </head>
+  <body>
+    <div id="container" style="height: 100%"></div>
+    <div class="btn-wrapper">
+      <div class="btn" id="btn1">前排</div>
+      <div class="btn" id="btn2">后排</div>
+    </div>
+  </body>
+</html>
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .btn-wrapper {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    opacity: 0.6;
+  }
+  .btn-wrapper:hover {
+    opacity: 1;
+  }
+  .btn {
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    user-select: none;
+  }
+</style>

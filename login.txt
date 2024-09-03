@@ -1,0 +1,1 @@
+1、forNew用户checkout 后push但是 -vv没有看到对应关系

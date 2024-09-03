@@ -1,2 +1,3 @@
 1、forNew用户checkout 后push但是 -vv没有看到对应关系
-2、forNew用户第二次修改测试upstream
+2、forNew用户第二次修改测试upstream 
+bob修改了日志
